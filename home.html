@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la API de ganadores de los Oscar</h1>
+    </header>
+    
+        <div>
+            <div>
+                <h3>Puedes consultar:</h3>
+                <ul>
+                    <li><a href="/oscars">Lista de años disponibles</a></li>
+                    <li><a href="/oscars/2011">Premios de 2011</a></li>
+                    <li>...</li>
+                    <li><a href="/oscars/2015">Premios de 2015</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Tambien puedes añadir premios a un año concreto (por ejemplo 2011) haciendo post a:</h3>
+                <ul>
+                    <li><a href="/oscars/2011">/oscars/2011</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Y mandando el body correspondiente:</h3>
+                <code>{ category:"Best Actress", entity: "Salma Hayek"}
+                </code>
+            </div>
+            <div>
+                <h3>Para consultar en un año que película o actores se llevaron más de un premio:</h3>
+                <ul>
+                    <li><a href="/winners-multiple/2011">Lista de ganadores múltiples(2011)</a></li>
+                    <li>...</li>
+                    <li><a href="/winners-multiple/2015">Lista de ganadores múltiples(2015)</a></li>
+                </ul>
+            </div>
+        </div>
+    
+</body>
+</html>

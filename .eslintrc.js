@@ -7,7 +7,7 @@ module.exports = {
   extends: "standard",
   overrides: [],
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: "latest"
   },
   rules: {
     "semi": "off",
@@ -15,6 +15,6 @@ module.exports = {
     "quotes": [2, "double"],
     "quote-props": [2, "consistent"],
     "multiline-ternary": "off",
-    "comma-dangle": "off",
-  },
-};
+    "comma-dangle": "off"
+  }
+}
